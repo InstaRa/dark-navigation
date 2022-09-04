@@ -1,4 +1,6 @@
 .main-header {
     background-color: #191932;
     min-height: 60px;
+    display: flex;
+    align-items: center;
 }
