@@ -1,0 +1,21 @@
+.user-control {
+    color: #6A6A9F;
+}
+
+.user-control .control {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.user-control .none {
+    display: none;
+}
+
+.user-control .icon {
+    height: 21px;
+}
+
+.user-control .control + .control {
+    margin-left: 32px;
+}
