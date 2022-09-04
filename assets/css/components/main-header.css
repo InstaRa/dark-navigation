@@ -2,6 +2,7 @@
     background-color: #191932;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
     max-height: 60px;
     padding-left: 60px;
