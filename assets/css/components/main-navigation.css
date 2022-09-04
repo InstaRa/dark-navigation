@@ -1,0 +1,29 @@
+.main-navigation {
+    display: flex;
+    box-sizing: border-box;
+    align-self: stretch;
+}
+
+.main-navigation .link {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #6A6A9F;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.44px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+}
+
+.main-navigation .link.-active,
+.main-navigation .link:hover {
+    color: #FFF;
+}
+
+.main-navigation .link.-active {
+    border-color: #176BF8;
+} 
